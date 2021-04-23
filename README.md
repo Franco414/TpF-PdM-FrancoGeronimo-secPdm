@@ -1,12 +1,8 @@
 # TpF-PdM-FrancoGeronimo-secPdm
 Proyecto que permite cargar secuencias de leds mediante el ingreso de datos vía interfaz serial.
-## Nota: Probado en cuteCom. En el mismo:
-
-Colocar "none" en la casilla al lado de la opción input, para que no envie ningún caracter, enter, adicional del dato que envía.
-
-Coloque en "Char delay" el valor "1 ms". (Si decide enviar todo la secuencia con un solo envio en cuteCom)
 
 ## Formato de la secuencia-> l+(1,2,3)+','+Número(0 a 10000)+Modo(a,e,d)+Número(0 a 100)+','+Número(0 a 10000)+Modo(a,e,d)+Número(0 a 100)+...+'.'
+
 El número antes del modo es la duración del paso. Debe estar en el rango 0 a 10000.
 
 Modos:
@@ -31,3 +27,10 @@ l3,500e5,1000a0,3000d100,2500d0,2000a0.
 ## Componentes LedSec-> ledTpfPdm.c ledTpfPdm.h
 ## Componentes utilFEG-> utilFeg.c utilFeg.h
 
+
+## Nota: Probado en cuteCom. En el mismo:
+
+Colocar "none" en la casilla al lado de la opción input, para que no envie ningún caracter, enter, adicional del dato que envía.
+
+Coloque en "Char delay" el valor "1 ms". (Si decide enviar todo la secuencia con un solo envio en cuteCom)
+![cuteCom](https://user-images.githubusercontent.com/78234051/115838311-ecc86780-a3ef-11eb-85c7-dc937091f8f8.png)
