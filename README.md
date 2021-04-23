@@ -1,6 +1,6 @@
 # TpF-PdM-FrancoGeronimo-secPdm
 Proyecto que permite cargar secuencias de leds mediante el ingreso de datos vía interfaz serial.
-## Nota: Probado en cuteCom.En el mismo:
+## Nota: Probado en cuteCom. En el mismo:
 
 Colocar "none" en la casilla al lado de la opción input, para que no envie ningún caracter, enter, adicional del dato que envía.
 
